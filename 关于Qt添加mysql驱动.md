@@ -10,7 +10,7 @@
 
 首先在qt的源文件中找到mysql的插件.pro文件：
 
-![image-20200923205930957](D:\GitHub\QtforSY\Photo_folder\image-20200923205930957.png)
+![image-20200923205930957](https://raw.githubusercontent.com/ioomie/QtforSY/main/Photo_folder/image-20200923205930957.png)
 
 打开后作下面的一些变动：
 
