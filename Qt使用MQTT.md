@@ -51,7 +51,7 @@ mosquitto_pub -h 10.3.40.112 -t hello -m hi
 
 对于Qos：
 
-![image-20200827202239698](https://github.com/ioomie/QtforSY/blob/main/Photo_folder/image-20200827202239698.png)
+![image-20200827202239698](https://raw.githubusercontent.com/ioomie/QtforSY/main/Photo_folder/image-20200827202239698.png)
 
 使用Qos的第三种方式，确保消息发布能够只收到1次，也就是准确性。
 

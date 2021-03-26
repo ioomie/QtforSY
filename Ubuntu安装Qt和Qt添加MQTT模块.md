@@ -41,7 +41,7 @@
    sudo service mosquitto status
    ```
 
-   ![image-20200903201052846](E:\GitHub\QtforSY\Photo_folder\image-20200903201052846.png)
+   ![image-20200903201052846](https://raw.githubusercontent.com/ioomie/QtforSY/main/Photo_folder/image-20200903201052846.png)
 
 6. 一些基本的操作命令
 
@@ -65,11 +65,11 @@
 
    首先下载Qt，对于Linux的一个稳定版本，最好选择5.12.9 http://download.qt.io/archive/qt/5.12/
 
-   ![image-20200905194046443](E:\GitHub\QtforSY\Photo_folder\image-20200905194046443.png)
+   ![image-20200905194046443](https://raw.githubusercontent.com/ioomie/QtforSY/main/Photo_folder/image-20200905194046443.png)
 
    当然这只是我个人的测试，Linux能支持的最新版本是为该版本。
 
-   ![image-20200905194209371](E:\GitHub\QtforSY\Photo_folder\image-20200905194209371.png)
+   ![image-20200905194209371](https://raw.githubusercontent.com/ioomie/QtforSY/main/Photo_folder/image-20200905194209371.png)
 
    下载下来之后要给予权限：
 
@@ -87,11 +87,11 @@
 
    关于压缩和解压：
 
-   ![image-20200905194956137](E:\GitHub\QtforSY\Photo_folder\image-20200905194956137.png)
+   ![image-20200905194956137](https://raw.githubusercontent.com/ioomie/QtforSY/main/Photo_folder/image-20200905194956137.png)
 
    解压后在文件内用Qt打开.pro文件进行编译，编译的要求如下：
 
-   ![image-20200905200610380](E:\GitHub\QtforSY\Photo_folder\image-20200905200610380.png)
+   ![image-20200905200610380](https://raw.githubusercontent.com/ioomie/QtforSY/main/Photo_folder/image-20200905200610380.png)
 
    1. 构建配置选择Release
 
@@ -99,7 +99,7 @@
 
    3. Build步骤中添加make install步骤
 
-      ![image-20200905200747713](E:\GitHub\QtforSY\Photo_folder\image-20200905200747713.png)
+      ![image-20200905200747713](https://raw.githubusercontent.com/ioomie/QtforSY/main/Photo_folder/image-20200905200747713.png)
 
    编译完成后会生成一些文件，其中会用到的有：
 
