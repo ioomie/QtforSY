@@ -103,33 +103,33 @@
 
    编译完成后会生成一些文件，其中会用到的有：
 
-   ![image-20200905201841463](E:\GitHub\QtforSY\Photo_folder\image-20200905201841463.png)
+   ![image-20200905201841463](https://raw.githubusercontent.com/ioomie/QtforSY/main/Photo_folder/image-20200905201841463.png)
 
    1. include
 
       将include中的文件复制到src的mqtt文件中
 
-      ![image-20200905202040125](E:\GitHub\QtforSY\Photo_folder\image-20200905202040125.png)
+      ![image-20200905202040125](https://raw.githubusercontent.com/ioomie/QtforSY/main/Photo_folder/image-20200905202040125.png)
 
    2. 将整个mqtt文件夹复制到qt的gcc编译器中
 
-      ![image-20200905202330641](E:\GitHub\QtforSY\Photo_folder\image-20200905202330641.png)
+      ![image-20200905202330641](https://raw.githubusercontent.com/ioomie/QtforSY/main/Photo_folder/image-20200905202330641.png)
 
    3. 复制lib中的链接文件到gcc的lib中
 
-      ![image-20200905202504907](E:\GitHub\QtforSY\Photo_folder\image-20200905202504907.png)
+      ![image-20200905202504907](https://raw.githubusercontent.com/ioomie/QtforSY/main/Photo_folder/image-20200905202504907.png)
 
-   4. 复制lib中的链接文件到gcc的bin中、
+   4. 复制lib中的链接文件到gcc的bin中
 
-      ![image-20200905202720621](E:\GitHub\QtforSY\Photo_folder\image-20200905202720621.png)
+      ![image-20200905202720621](https://raw.githubusercontent.com/ioomie/QtforSY/main/Photo_folder/image-20200905202720621.png)
 
    5. modules-inst文件夹
 
-      ![image-20200905202826832](E:\GitHub\QtforSY\Photo_folder\image-20200905202826832.png)
+      ![image-20200905202826832](https://raw.githubusercontent.com/ioomie/QtforSY/main/Photo_folder/image-20200905202826832.png)
 
-   6. modules文件夹![image-20200905203000100](E:\GitHub\QtforSY\Photo_folder\image-20200905203000100.png)
+   6. modules文件夹![image-20200905203000100](https://raw.githubusercontent.com/ioomie/QtforSY/main/Photo_folder/image-20200905203000100.png)
 
-   7. 因为头文件路径的问题会出现一些错误，这里使用最暴力的方式：将include中的头文件再复制一遍到上一级目录：![image-20200905203148755](E:\GitHub\QtforSY\Photo_folder\image-20200905203148755.png)
+   7. 因为头文件路径的问题会出现一些错误，这里使用最暴力的方式：将include中的头文件再复制一遍到上一级目录：![image-20200905203148755](https://raw.githubusercontent.com/ioomie/QtforSY/main/Photo_folder/\image-20200905203148755.png)
 
    至此linux上的mqtt模块安装完成
 
@@ -145,7 +145,7 @@
 
    然后进入文件夹将相关路径中的头文件复制到对应的编译器中的QtQmqtt文件夹中：
 
-   ![image-20200905210531268](E:\GitHub\QtforSY\Photo_folder\image-20200905210531268.png)
+   ![image-20200905210531268](https://raw.githubusercontent.com/ioomie/QtforSY/main/Photo_folder/image-20200905210531268.png)
 
 ### 测试
 
