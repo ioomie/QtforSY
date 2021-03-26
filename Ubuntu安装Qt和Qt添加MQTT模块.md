@@ -129,7 +129,7 @@
 
    6. modules文件夹![image-20200905203000100](https://raw.githubusercontent.com/ioomie/QtforSY/main/Photo_folder/image-20200905203000100.png)
 
-   7. 因为头文件路径的问题会出现一些错误，这里使用最暴力的方式：将include中的头文件再复制一遍到上一级目录：![image-20200905203148755](https://raw.githubusercontent.com/ioomie/QtforSY/main/Photo_folder/\image-20200905203148755.png)
+   7. 因为头文件路径的问题会出现一些错误，这里使用最暴力的方式：将include中的头文件再复制一遍到上一级目录：![image-20200905203148755](https://raw.githubusercontent.com/ioomie/QtforSY/main/Photo_folder/image-20200905203148755.png)
 
    至此linux上的mqtt模块安装完成
 
